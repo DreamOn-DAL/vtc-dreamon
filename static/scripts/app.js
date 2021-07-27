@@ -8,7 +8,7 @@ Vue.component('big-button', {
     props: [ 'id', 'group', 'link', 'title' ],
     template:
         '<a target="_blank" :href="link" :class="`big-button ${id}`"> \
-            <img :src="`/static/images/${group}/${id}.png`" height="256px" width="256px" class="fade transition"> \
+            <img :src="`./static/images/${group}/${id}.png`" height="256px" width="256px" class="fade transition"> \
             <span class="title transition">{{ title }}</span> \
         </a>'
 })

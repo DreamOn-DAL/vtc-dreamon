@@ -175,9 +175,9 @@ section .container {
     min-height: 800px;
 }
 
-.image-1 { background-image: url("/static/images/background/1.jpg"); height: 100vh !important; }
-.image-2 { background-image: url("/static/images/background/2.jpg"); }
-.image-3 { background-image: url("/static/images/background/4.jpg"); }
+.image-1 { background-image: url("../images/background/1.jpg"); height: 100vh !important; }
+.image-2 { background-image: url("../images/background/2.jpg"); }
+.image-3 { background-image: url("../images/background/4.jpg"); }
 
 .rules-header {
     height: 200px;
